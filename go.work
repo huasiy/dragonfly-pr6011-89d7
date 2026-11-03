@@ -1,0 +1,8 @@
+go 1.24.0
+
+toolchain go1.24.7
+
+use (
+	./contrib/charts/dragonfly
+	./tools/replay
+)
